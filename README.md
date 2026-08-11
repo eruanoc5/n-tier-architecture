@@ -96,4 +96,5 @@ La versión con datos simulados permite ejecutar el proyecto sin configurar una 
 
 Si desea realizar una prueba con data real. En appsettings.json, configurar la cadena de conexión correspondiente a la instalación local de SQL Server.
 En Program.cs se debe registrar solamente una implementación.
+
 builder.Services.AddScoped<IClienteRepository, ClienteSqlRepository>();
