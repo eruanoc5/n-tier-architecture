@@ -1,0 +1,4 @@
+@ContabilidadAPI_HostAddress = http://localhost:5220
+
+GET {{ContabilidadAPI_HostAddress}}/api/clientes
+Accept: application/json
